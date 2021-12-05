@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 70px;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .d-flex {
+    justify-content: space-between;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.notification-block {
+    padding: 10px 0;
+    background-color: #25252b;
+}
+
+.notification-block p {
+    margin: 0;
+    text-align: center;
+}
+
+.welcome-container {
+    background-color: rgb(32, 32, 32);
+    padding: 50px 0;
+}
+
+.welcome-text-container {
+    width: 25%;
+}
+
+.welcome-container img {
+    width: 75%;
+}
+
+.main-links-container a {
+    padding: 15px 0;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.main-links-container img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+
+.main-links-container p {
+    text-align: center;
+}
+
+.search-container img {
+    width: 15px;
+}
+
+.download-button-2 {
+    background-color: blue;
+}
+
+.chevron-down {
+    width: 40px;
+    border-left: 2px solid rgb(32, 32, 32);
+}
+.container nav a img {
+    width: 24px;
+    height: 24px;
+}
+.nav-a  a { 
+    padding: 5px;
+}
+.d-flex div input {
+    height: 60px;
+    background-color: #FFFFFF14;
+}
+.download {
+    display: flex;
+    width: 110px;
+    align-items: center;
+    background-color: #0066b8;
+}
+.img-download {
+    height: 24px;
+    width: 24px;
+}
+.version {
+    color: #0098ff;
+}
+.version-detail {
+    color: #CCCCCC;
+}
+.code-editing h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 15px;
+}
+.code-editing p {
+    padding-right: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.stabel-build p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.down-size {
+    font-weight: 400;
+}
+.container1 {
+    width: 1100px;
+    margin: auto;
+}
+.other-platform {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0;
+    background: #25252b;
+    border-radius: 8px;
+    padding: 8px 8px;
+    margin-top: 1.5rem;
+}
+.other-platform a {
+    color: #0098ff;
+}
+.other-platform span {
+    color: #ccc;
+}
+.by-using {
+    color: #ccc;
+    text-align: center;
+}
+.license {
+    text-align: center;
+}
+.license a {
+    color: #0098ff;
+}
+.chamonatvali a p {
+    color: black;
+}
