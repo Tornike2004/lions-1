@@ -9,7 +9,6 @@ header {
     background-color: rgb(32, 32, 32);
     align-items: center;
 }
-
 header a {
     color: white;
     text-decoration: none;
@@ -27,12 +26,18 @@ header .d-flex {
 .d-flex {
     display: flex;
 }
-
+.d-flex nav {
+    display: flex;
+    align-items: center;
+}
 .notification-block {
     padding: 10px 0;
     background-color: #25252b;
 }
-
+.nav-a a {
+    display: flex;
+    align-items: center;
+}
 .notification-block p {
     margin: 0;
     text-align: center;
