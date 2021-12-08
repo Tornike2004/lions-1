@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -89,6 +90,7 @@ header .d-flex {
 .container nav a img {
     width: 24px;
     height: 24px;
+    padding-right: 10px
 }
 .nav-a  a { 
     padding: 5px;
@@ -173,6 +175,7 @@ header .d-flex {
 
 .testimonials {
     background-color: rgb(245, 245, 245);
+    padding: 60px;
 }
 
 .testimonials h6,
@@ -210,4 +213,96 @@ header .d-flex {
 
 .feature:nth-child(even) .container {
     flex-direction: row-reverse;
+}
+.feature {
+    padding: 60px;
+}
+.language-list {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+}
+.getting-started1 {
+    background-color: #f5f5f5;
+    padding: 80px;
+}
+.getting-started h2 {
+    margin: auto;
+}
+.enebis-chamonatvali {
+    width: 16.66666667%;
+}
+.andmanymore a {
+    margin: auto;
+    color: #0098ff;
+}
+.getstartednow button {
+    margin: auto;
+    background-color: #0066b8;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    border-style: none;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+.getstartednow button a p {
+    text-align: center;
+    color: white;
+}
+.download1 {
+    padding: 60px;
+}
+.windowslogo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+.windows-download1 span {
+    display: flex;
+    flex-direction: column;
+}
+.download1 button {
+    background-color: #0066b8;
+    border-style: none;
+    color: white;
+    width: 240px;
+    height: 70px;
+    cursor: pointer;
+}
+.dlink {
+    cursor: pointer;
+}
+.platform-link {
+    background: #0066b8;
+    color: #fff;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 0 3px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.table-row-2 {
+    display: flex;
+    flex-direction: column;
+}
+.container2 {
+    margin: auto;
+    width: 1100px;
+}
+.download2 button {
+    background-color: #0066b8;
+    border-style: none;
+    color: white;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+.download2 {
+    padding: 60px;
+    margin-left: 60px;
+}
+.lynux-img {
+    display: flex;
+    align-items: center;
 }
