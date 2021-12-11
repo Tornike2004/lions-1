@@ -90,15 +90,17 @@ header .d-flex {
 .download-button-2 {
     background-color: blue;
 }
-.stable-build {
+
+.stabel-build {
     width: 80%;
 }
+
 .chevron-down {
-    border-left: 2px solid rgb(32, 32, 32);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 20%;
+    border-left: 2px solid rgb(32, 32, 32);
 }
 .container nav a img {
     width: 24px;
