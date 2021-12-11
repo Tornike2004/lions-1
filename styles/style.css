@@ -6,13 +6,20 @@ a {
     text-decoration: none;
 }
 header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     height: 70px;
     background-color: rgb(32, 32, 32);
     align-items: center;
+    z-index: 1;
 }
 header a {
     color: white;
     text-decoration: none;
+    align-items: center;
+    color: white;
 }
 
 header .d-flex {
@@ -20,7 +27,7 @@ header .d-flex {
 }
 
 .container {
-    width: 900px;
+    width: 1320px;
     margin: auto;
 }
 
@@ -32,6 +39,7 @@ header .d-flex {
     align-items: center;
 }
 .notification-block {
+    margin-top: 70px;
     padding: 10px 0;
     background-color: #25252b;
 }
@@ -82,10 +90,15 @@ header .d-flex {
 .download-button-2 {
     background-color: blue;
 }
-
+.stable-build {
+    width: 80%;
+}
 .chevron-down {
-    width: 40px;
     border-left: 2px solid rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
 }
 .container nav a img {
     width: 24px;
@@ -305,4 +318,62 @@ header .d-flex {
 .lynux-img {
     display: flex;
     align-items: center;
+}
+.chamonatvali :hover {
+    color: red;
+}
+.lynux-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 125px;
+}
+.terms {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.terms-p {
+    text-align: center;
+}
+.terms1 h3 {
+    margin-top: 70px;
+}
+.terms-h2 {
+    display: flex;
+    justify-content: center;
+}
+.h3-p {
+    text-align: center;
+}
+.mtavari-terms {
+    margin-top: 50px;
+    background-color: #F5F5F5;
+}
+.footer-info {
+    background-color: #333;
+    font-size: 20px;
+    color: #fff;
+    padding: 25px 0;
+}
+.pirveli-a {
+    display: flex;
+}
+.footer-info a {
+    color: white;
+    padding: 10px;
+}
+.footer-info a :hover {
+    color: hotpink;
+}
+.pirveli-a :hover {
+    color: hotpink;
+}
+.footer-info .d-flex {
+    justify-content: space-between;
+}
+.meore-a {
+    margin-top: 10px;
+}
+.meore-a :hover {
+    color: hotpink;
 }
