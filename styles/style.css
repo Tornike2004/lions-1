@@ -271,7 +271,10 @@ header .d-flex {
 .windowslogo img {
     height: 100px;
     width: 100px;
-    margin-left: 50px;
+}
+.windows-center {
+    display: flex;
+    justify-content: center;
 }
 .windows-download1 span {
     display: flex;
@@ -316,17 +319,14 @@ header .d-flex {
 .download2 {
     padding: 60px;
 }
-.lynux-img {
-    display: flex;
-    align-items: center;
-}
 .chamonatvali :hover {
     color: red;
 }
 .lynux-img {
     height: 100px;
     width: 100px;
-    margin-left: 125px;
+    display: flex;
+    align-items: center;
 }
 .terms {
     display: flex;
@@ -377,4 +377,12 @@ header .d-flex {
 }
 .meore-a :hover {
     color: hotpink;
+}
+.lynuxlogo {
+    display: flex;
+    justify-content: center;
+}
+.table-center {
+    display: flex;
+    justify-content: center;
 }
