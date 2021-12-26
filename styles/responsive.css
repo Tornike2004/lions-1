@@ -16,6 +16,7 @@
     }
     .d-flex {
         flex-wrap: wrap;
+        justify-content: center;
     }
     .col-2 a {
         display: none;
