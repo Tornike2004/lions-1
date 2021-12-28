@@ -83,6 +83,7 @@ header {
 .fire-logo {
     width: 30px;
     height: 30px;
+    border-radius: 10px;
 }
 .hot-offer-h5 {
     display: flex;
@@ -143,4 +144,59 @@ header {
 }
 .mtavari-hotoffer {
     gap: 10px;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-shadow: grey;
+}
+.special-offer-section {
+    padding: 60px 0;
+}
+.arrow-div {
+    margin-right: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+.sales-pos {
+    margin-right: 20px;
+}
+.background-1 {
+    background-color: white;
+    border-radius: 15px;
+    gap: 20px;
+    cursor: pointer;
+}
+.background-1 div :hover{
+    background-color: #ccc;
+}
+.brands-section {
+    padding: 50px 0;
+}
+.top-div {
+    gap: 10px;
+}
+.top-section {
+    padding: 50px 0;
+}
+.verify1-img {
+    width: 60px;
+    height: 48px;
+}
+.verify1-div {
+    background-color: white;
+    width: 20%;
+    height: 133px;
+    padding: 20px;
+    cursor: pointer;
+}
+.apple-a {
+    color: orangered;
+}
+.pirobebi {
+    gap: 20px;
+}
+.pirobebi-section{
+    padding: 50px 0;
 }
