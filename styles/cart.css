@@ -1,0 +1,117 @@
+.navigation-bar-color {
+    background-color: orangered;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.navigation-padding {
+    padding: 50px 0;
+}
+.navigation-img {
+    width: 30px;
+    height: 30px;
+}
+.navigation-bar {
+    padding: 10px 0;
+    gap: 12px;
+}
+.navigation-content {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-content a {
+    background-color: #082a45;
+    border-radius: 10px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+}
+.navigation-content span {
+    cursor: pointer;
+}
+.left-arrow {
+    width: 20px;
+    height: 20px;
+}
+.misamarti {
+    align-items: center;
+}
+.misamarti a, span {
+    color: white;
+}
+.chamonatvali {
+    background-color: white;
+    border-radius: 10px;
+}
+.telefoni-img {
+    width: 69px;
+    height: 69px;
+}
+.cart-table tr th {
+    background-color: orangered;
+    padding: 10px 110px;
+}
+.pozicia-tr {
+    text-align: center;
+    border-bottom: 1px solid #0000000f;
+}
+.pozicia-tr td {
+    padding: 20px 0;
+}
+.table-chamonatvali {
+    padding: 25px 0;
+}
+.span-chackout {
+    color: black;
+}
+.yvela-checkout {
+    gap: 25px;
+}
+.marjvena-checkout {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 310px;
+}
+.padding-span {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #0000000f;
+}
+.a-checkout {
+    background-color: #232F3E;
+    width: 217px;
+    border-style: none;
+    height: 52px;
+    border-radius: 10px;
+}
+.padding-span-1 {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-checkout a {
+    color: white;
+}
+.padding-span-2 {
+    padding: 20px 0;
+    margin-left: 22px;
+    border-bottom: 1px solid #0000000f;
+}
+.cart-clear {
+    border-style: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: orangered;
+    margin-left: 30px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
