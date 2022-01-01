@@ -1,0 +1,59 @@
+.navigacia {
+    padding: 50px 0;
+}
+.main-nav {
+    width: 180px;
+}
+.main-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.main-nav ul a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-left: 1px solid #ccc;
+}
+
+.main-nav ul a:hover {
+    border-color: orangered;
+}
+.zoma2 {
+    width: 1200px;
+}
+.sadziebo-ul {
+    position: sticky;
+    top: 60px;
+}
+.surati-zoma2 {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+.chamonatvali-teleonebis {
+    list-style: none;
+}
+.mdebareoba {
+    align-items: center;
+}
+.mdebareoba-1 h5 {
+    display: flex;
+    justify-content: center;
+}
+.mdebareoba-1 img {
+    margin-left: 47px;
+}
+.chamonatvali-teleonebis li a {
+    color: orangered;
+}
+.padding-div {
+    padding: 100px 0;
+}
+.padding-div-1 {
+    padding: 50px 0;
+}
