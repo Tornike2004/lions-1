@@ -1,0 +1,43 @@
+.border-radius-1 {
+    border-radius: 10px;
+    border: 1px solid #e4e7ed;
+    padding: 10px 0;
+}
+.write-to-us {
+    background-color: white;
+    width: 415px;
+    border-radius: 32px;
+    text-align: center;
+    padding: 30px 0;
+}
+.contacts-gap {
+    gap: 160px;
+}
+.send-1 {
+    background-color: orangered;
+    height: 40px;
+    width: 359px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.padding-div-3 {
+    padding: 10px 0;
+}
+.send-3 {
+    margin-top: 17px;
+}
+.send-3 p {
+    color: white;
+}
+.mail-png-size {
+    height: 20px;
+    width: 20px;
+}
+.misamarti-size {
+    width: 464px;
+    height: 126px;
+}

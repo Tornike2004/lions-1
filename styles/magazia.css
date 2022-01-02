@@ -28,6 +28,10 @@ header {
     height: 30px;
     width: 30px;
 }
+.contacts-class {
+    margin-top: 10px;
+    color: black;
+}
 .shop-logo-center {
     display: flex;
     align-items: center;
