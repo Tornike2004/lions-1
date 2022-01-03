@@ -1,0 +1,34 @@
+.male-female {
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.email-input-4 {
+    width: 160px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 49px;
+    padding: 10px 40px;
+}
+.input-container-1 img {
+    height: 49px;
+    border-radius: 20px;
+}
+.input-container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.terms-agree {
+    flex-direction: column;
+    padding: 10px 0;
+}
+.terms-agree-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.terms-agree-1 p {
+    margin-top: revert;
+}
+.terms-agree-1 p a:hover {
+    color: #007bff;
+}

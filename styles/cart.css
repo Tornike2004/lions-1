@@ -6,6 +6,9 @@
 .navigation-padding {
     padding: 50px 0;
 }
+.cart-clear-1 a:hover{
+    color: white;
+}
 .navigation-img {
     width: 30px;
     height: 30px;

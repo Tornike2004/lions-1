@@ -1,0 +1,97 @@
+a:hover {
+    color: white;
+}
+.signin-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+.container-1 {
+    width: 470px;
+    background-color: white;
+    padding: 60px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.magazia-logo-size1 {
+    width: 120px;
+    height: 120px;
+}
+.enter-magazia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enter-h2 {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.google-enter {
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    width: 349px;
+    display: inline-block;
+    height: 49px;
+    text-align: center;
+}
+.google-enter p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+.facebook-enter {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    width: 349px;
+    display: inline-block;
+    height: 49px;
+    text-align: center;
+}
+.facebook-enter p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+.padding-enter-div {
+    padding: 10px 0;
+}
+.padding-bottom {
+    padding: 10px 0;
+}
+.email-input-3 {
+    width: 349px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 49px;
+    padding: 10px 40px;
+}
+.login-enter {
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    width: 349px;
+    display: inline-block;
+    height: 49px;
+    text-align: center;
+}
+.login-enter p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+.password-recover {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.password-recover a:hover  {
+    color: #007bff
+}

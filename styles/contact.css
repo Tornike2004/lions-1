@@ -41,3 +41,15 @@
     width: 464px;
     height: 126px;
 }
+.contact-list li {
+    list-style: none;
+    padding: 10px 0;
+}
+.marjvena-misamarti {
+    margin-top: 160px;
+    padding: 20px 0;
+}
+.captcha-img-pos {
+    margin-top: 10px;
+    border-radius: 25px;
+}
