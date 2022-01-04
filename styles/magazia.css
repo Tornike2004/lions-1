@@ -11,6 +11,7 @@
 }
 .container {
     width: 1400px;
+    margin: auto;
 }
 header {
     background-color: white;
@@ -121,8 +122,7 @@ header {
     display: block;
 }
 .prveli-div {
-    height: 290px;
-    width: 249px;
+    width: 20%;
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
