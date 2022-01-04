@@ -42,9 +42,12 @@ header {
     align-items: center;
     gap: 5px;
 }
+.logo-responsive {
+    display: none;
+}
 .search-header {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 .search-div {
     display: flex;
@@ -228,4 +231,7 @@ header {
 .tb-mandzili th {
     padding: 20px 136px;
     color: orangered;
+}
+.background-1 div img {
+    width: 100%;
 }

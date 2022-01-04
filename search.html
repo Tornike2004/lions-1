@@ -17,17 +17,21 @@
     </head>
     <body>
         <header class="d-flex">
-            <div class="mtavari-header container d-flex">
+            <div class="mtavari-header container d-flex responsive-1">
+                <div class="logo-responsive" href="./magazia-mtavari.html">
+                    <a href="./magazia-mtavari.html"><img class="shop-logo" src="./assets/img/magazia-logo.png" alt="logo"></a>
+                    <a class="name" href="./magazia-mtavari.html"><h3>Tokenco</h3></a>
+                </div>
                 <div class="shop-logo-center a-hover">
                     <a href="./magazia-mtavari.html"><img class="shop-logo" src="./assets/img/magazia-logo.png" alt="logo"></a>
                     <a class="name" href="./magazia-mtavari.html"><h3>Tokenco</h3></a>
                 </div>
                 <div class="search-div">
-                    <input type="text" placeholder="Search..">
+                    <input class="display-none-input" type="text" placeholder="Search..">
                     <a href="./search.html"><img class="search-header" src="./assets/img/search.png" alt=""></a>
                 </div>
                 <div class="profile-gap d-flex">
-                    <a class="profile-a" href="/sign-in.html">
+                    <a class="profile-a" href="./sign-in.html">
                         <div class="profile d-flex">
                             <img class="profile-img" src="./assets/img/Profile-PNG-Clipart.png" alt="profile">
                             <h3 class="profile-h3">Sign in</h3>
@@ -47,7 +51,7 @@
         </header>
         <div class="navigacia d-flex container">
             <nav class="main-nav">
-                <ul class="sadziebo-ul">
+                <ul class="sadziebo-ul responsive-1">
                     <li><a href="./search.html"><h5>All Categories</h5></a></li>
                     <li><a href="#phones">Phones</a></li>
                     <li><a href="#laptops">Laptops</a></li>
@@ -63,7 +67,7 @@
                
                
                 <!--Phones-->
-                <div id="phones" class="mdebareoba d-flex">
+                <div id="phones" class="mdebareoba d-flex responsive-1">
                     <div class="mdebareoba-1">
                         <h5>Samsung</h5>
                         <img class="surati-zoma2" src="./assets/img/samsung-galaxy-s21-ultra-5g-g996bd-12256gb-black_550.png" alt="">
@@ -249,33 +253,29 @@
             </section>
         </div>
         <footer class="footer-color">
-            <div class="footer-padding container d-flex">
-                <div>
-                    <div>
-                        <table class="tb-mandzili">
-                            <tr>
-                                <th><h3>Navigation</h3></th>
-                                <th><h3>Payments</h3></th>
-                                <th><h3>Account</h3></th>
-                            </tr>
-                            <tr>
-                                    <td><a href="#">About Us</a></td>
-                                    <td><a href="#">Payment Methods</a></td>
-                                    <td><a href="#">Online Installment</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">New Year Schedule</a></td>
-                                <td><a href="#">Warranty</a></td>
-                                <td><a href="#">Delivery Methods</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">Vacancy</a></td>
-                                <td><a href="#">Installment</a></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+            <div class="footer-padding container d-flex table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                    <table class="tb-mandzili">
+                        <tr>
+                            <th><h3>Navigation</h3></th>
+                            <th><h3>Payments</h3></th>
+                            <th><h3>Account</h3></th>
+                         </tr>
+                        <tr>
+                            <td><a href="#">About Us</a></td>
+                            <td><a href="#">Payment Methods</a></td>
+                            <td><a href="#">Online Installment</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">New Year Schedule</a></td>
+                            <td><a href="#">Warranty</a></td>
+                            <td><a href="#">Delivery Methods</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Vacancy</a></td>
+                            <td><a href="#">Installment</a></td>
+                        </tr>
+                </table>
             </div>
-        </footer>
+    </footer>
     </body>
 </html>

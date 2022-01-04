@@ -2,7 +2,7 @@
     padding: 50px 0;
 }
 .main-nav {
-    width: 180px;
+    width: 12%
 }
 .main-nav ul {
     list-style: none;
@@ -40,6 +40,9 @@
 }
 .mdebareoba {
     align-items: center;
+}
+.mdebareoba-1 {
+    width: 25%;
 }
 .mdebareoba-1 h5 {
     display: flex;
