@@ -8,6 +8,9 @@
     .logo-responsive {
         display: flex;
     }
+    .dropdown-responsive-1 {
+        display: flex !important;
+    }
     .display-none-input {
         display: none;
     }
