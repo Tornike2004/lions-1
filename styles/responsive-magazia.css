@@ -32,3 +32,8 @@
         margin-left: 33%;
     }
 }
+@media screen and (max-width: 620px) {
+    .display-none-input-1 {
+        display: none;
+    }
+}
